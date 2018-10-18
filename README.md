@@ -1,3 +1,11 @@
+# PURPOSE
+
+This Book tracing app was built for the Udacity Front-end Nanodegree Program.The purpose of the project is to demonstrate understanding of the basic structure and operation of a React-based app.
+
+Live page:https://lakme22.github.io/MyReads/
+
+Furthur informations are given below: 
+
 # MyReads Project
 
 This is the starter template for the final assessment project for Udacity's React Fundamentals course. The goal of this template is to save you time by providing a static example of the CSS and HTML markup that may be used, but without any of the React code that is needed to complete the project. If you choose to start with this template, your job will be to add interactivity to the app by refactoring the static code in this template.
