@@ -3,13 +3,15 @@ import SearchPage from './SearchPage';
 import MainPage from './MainPage';
 import * as BooksAPI from './BooksAPI';
 import { Route } from 'react-router-dom';
-import autobind from 'autobind-decorator'
+import  autobind  from 'autobind-decorator'
 import './App.css'
 
 class BooksApp extends React.Component {
   state = {
     books: []
   }
+  
+  
   componentDidMount(){
     BooksAPI.getAll().then((books) => {
       this.setState({books: books})
@@ -20,12 +22,11 @@ class BooksApp extends React.Component {
   
   moveShelf = (book, shelf) => 
    {
-    BooksAPI.update(book, shelf);
-
-    BooksAPI.getAll().then((books) => {
-      this.setState({books: books})
+    BooksAPI.update(book, shelf).then(() => {
+      BooksAPI.getAll().then((books) => {
+        this.setState({ books })
+      })
     })
-    
     }
 
   
