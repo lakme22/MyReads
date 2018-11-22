@@ -105,3 +105,6 @@ For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 <https://egghead.io/courses/getting-started-with-redux>
 <https://medium.com/@rajaraodv/step-by-step-guide-to-building-react-redux-apps-using-mocks-48ca0f47f9a>
 
+![1](https://user-images.githubusercontent.com/36790663/48881887-bca2c600-ee3d-11e8-9d2a-bce9a9ee651c.PNG)
+![2](https://user-images.githubusercontent.com/36790663/48881888-bca2c600-ee3d-11e8-898b-09f4d254e894.PNG)
+![3](https://user-images.githubusercontent.com/36790663/48881890-bd3b5c80-ee3d-11e8-8c01-3072f815ddeb.PNG)
